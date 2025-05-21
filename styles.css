@@ -1,0 +1,53 @@
+/* Global style settings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Form section style */
+.form-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Title style */
+h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Radio button and checkbox label style */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Slider style */
+input[type="range"] {
+    width: 300px;
+    margin-right: 10px;
+}
+
+/* Button style */
+button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Canvas style */
+canvas {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}

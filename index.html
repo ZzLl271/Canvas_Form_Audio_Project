@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Canvas Scene with Forms</title>
+    <!-- External CSS style file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background selection form area -->
+    <div class="form-section">
+        <h3>Background Select</h3>
+        <input type="radio" id="bg1" name="background" value="bg1">
+        <label for="bg1">Background grass</label>
+        <input type="radio" id="bg2" name="background" value="bg2">
+        <label for="bg2">Background sea</label>
+        <input type="radio" id="bg3" name="background" value="bg3">
+        <label for="bg3">Background winter</label>
+    </div>
+
+    <!-- Slider control character position area -->
+    <div class="form-section">
+        <h3>Character Position</h3>
+        <input type="range" id="slider" min="0" max="400" value="200">
+        <div id="slider-value">200</div>
+    </div>
+
+    <!-- Checkbox control item visibility area -->
+    <div class="form-section">
+        <h3>Item Visibility</h3>
+        <input type="checkbox" id="item1">
+        <label for="item1">red block</label>
+        <input type="checkbox" id="item2">
+        <label for="item2">green block</label>
+        <input type="checkbox" id="item3">
+        <label for="item3">yellow block</label>
+    </div>
+
+    <!-- Sound effect button area -->
+    <div class="form-section">
+        <h3>Sound Effects</h3>
+        <button id="sound1">sound of run in grass</button>
+        <button id="sound2">sound of undersea</button>
+        <button id="sound3">sound of winter wind</button>
+    </div>
+
+    <!-- Main canvas area -->
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+
+    <!-- External JavaScript script -->
+    <script src="script.js"></script>
+</body>
+</html>
